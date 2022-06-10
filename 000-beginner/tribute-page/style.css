@@ -1,0 +1,41 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: cursive;
+  font-size: 2rem;
+}
+  
+#titlePlace {
+  background-color: yellow;
+}
+
+h1 {
+  font-size: 4.6rem;
+  text-align: center;
+}
+
+#underName {
+  font-size: 2.3 rem;
+  text-align: center;
+}
+
+#imageOne {
+  background-color: rgb(217, 209, 234);
+  border-top: 100px;
+  font-family: sans-serif;
+}
+
+#shortInfo {
+  font-family: fantasy;
+  background-color: rgb(222, 250, 250);
+}
+
+#facts {
+  background-color: rgb(230, 255, 255);
+}
+
+#quote {
+  background-color: white;
+}
