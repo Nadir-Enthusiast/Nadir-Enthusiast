@@ -1,0 +1,175 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="textCenter">An Interesting Survey</h1>
+    <p id="description" class="descrTextCenter">
+      We hope you like it!
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="formGroup">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="formControl"
+        placeholder="Your name"
+        required
+      />
+    </div>
+    <div class="formGroup">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="formControl"
+        placeholder="Your email"
+        required
+      />
+    </div>
+    <div class="formGroup">
+      <label id="number-label" for="number">Age<span class="hint">(optional)</span></label>
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="7"
+        max="130"
+        class="formControl"
+        placeholder="Your age"
+      />
+    </div>
+    
+    <div>
+      <p>Would you recommend freeCodeCamp to a friend?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="inputRadio"
+          checked
+        />Definitely</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="inputRadio"
+        />Maybe</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="inputRadio"
+        />Not sure</label
+      >
+      
+      <label
+        ><input
+          name="user-recommend"
+          value="no"
+          type="radio"
+          class="inputRadio"
+        />Obviously no</label
+      >
+    </div>
+
+    
+    <div class="formGroup">
+      <p>What describes you the best?</p>
+      <select id="dropdown" name="occupation" class="formControl" required>
+        <option disabled selected value>Select your occupation</option>
+        <option value="student">Student</option>
+        <option value="job">Employee</option>
+        <option value="learner">Learner</option>
+        <option value="master">Experienced Programmer</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    
+    <div class="formGroup">
+      <p>
+        What you want to be improved?
+        <span class="hint">(Check all that apply)</span>
+      </p>
+      
+      <label>
+          <input
+            name="prefer"
+            value="frontEnd"
+            type="checkbox"
+            class="inputCheckbox"
+        />Front-end Projects</label
+      >
+      <label>
+          <input
+            name="prefer"
+            value="backEnd"
+            type="checkbox"
+            class="inputCheckbox"
+        />Back-end Projects</label>
+      <label>
+          <input
+            name="prefer"
+            value="dataVisualization"
+            type="checkbox"
+            class="inputCheckbox"
+        />Data Visualization</label>
+      <label>
+          <input
+            name="prefer"
+            value="qualityAssurance"
+            type="checkbox"
+            class="inputCheckbox"
+        />Quality Assurance</label>
+      <label>
+          <input
+            name="prefer"
+            value="cyberSecurity"
+            type="checkbox"
+            class="inputCheckbox"
+        />Cyber Checkbox</label>
+      <label>
+          <input
+            name="prefer"
+            value="helpOpportunities"
+            type="checkbox"
+            class="inputCheckbox"
+        />Opportunity to get help</label>
+      <label>
+          <input
+            name="prefer"
+            value="forum"
+            type="checkbox"
+            class="inputCheckbox"
+        />Conversational Forum</label>
+      <label>
+          <input
+            name="prefer"
+            value="opportunities"
+            type="checkbox"
+            class="inputCheckbox"
+        />A lot of opportunities</label>
+    </div>
+    
+    <div class="formGroup">
+      <p>Any ideas or feedback?</p>
+      <textarea
+        id="feedback"
+        class="inputText"
+        name="comment"
+        placeholder="Your opinion"
+      ></textarea>
+    </div>
+    
+    <div class="formGroup">
+      <button type="submit" id="submit" class="submitButton">Submit</button>
+    </div>
+  </form>
+</div>
