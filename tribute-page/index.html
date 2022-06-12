@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kanit&family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fira+Sans&family=Kanit&family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-container">
+        <h1 class="mainTitle">Larry Ellison</h1>
+        <p class="secondTitle">Founder of Oracle</p>
+      </div>
+      <figure class="quote-pic">
+        <a href="https://en.m.wikipedia.org/wiki/Larry_Ellison#/media">
+          <img 
+            class="image"
+            src="https://thumbs.dreamstime.com/b/ceo-oracle-larry-ellison-makes-his-speech-oracle-openworld-conference-san-francisco-ca-sept-moscone-center-sept-34462722.jpg"
+            alt="Oracle CEO makes speech at Oracle OpenWorld conference">
+          </a>
+        <figcaption>
+          Larry Ellison speaks at Oracle OpenWorld conference.
+        </figcaption>
+      </figure>
+      <section>
+        <div class="shortInfo">
+          <p class="intro-text">
+            American businessman and entrepreneur who was cofounder and chief executive officer (1977-2014) of the software company Oracle Corporation.
+          </p>
+        </div>
+      </section>
+      <section id="facts">
+        <h3 class="facts-intro">Here are some facts about Larry Ellison:</h3>
+        <ul>
+          <li>Lawrence Joseph Ellison was born in the Bronx on August 17, <strong>1944</strong></li>
+          <li>Ellison attended <strong>South Shore High School</strong> in Chicago</li>
+          <li>Ellison went to high school in Chicago's South Side <strong>before attending</strong> the University of Illinois at Urbana-Champaign.</li>
+          <li>He withdrew after his <strong>sophomore year</strong>, because his adoptive mother had just died</li>
+          <li>In 1977 he forms <strong>the company</strong> with the investment of $2,000.</li>
+          <li>In 1983, the company officially became <strong>Oracle Systems Corporation</strong> after its flagship product.</li>
+          <li>With the defeat of Informix and of Sybase, Oracle enjoyed years of <strong>industry dominance</strong> until the rise of Microsoft SQL Server</li>
+          <li>In 2006, Forbes ranked him as the richest Californian.</li>
+          <li>The European Union approved Oracle's acquisition of <strong>Sun Microsystems</strong> on January 21, 2010</li>
+          <li>As of June 2020, <strong>Ellison</strong> is said to be the seventh wealthiest person in the world, with a net worth of $66.8 billion.</li>
+        </ul>
+        <div id="quote">
+        <blockquote>
+          <div class="quoteImage-container">
+            <img
+              class="image-quote"
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+          </div>
+          <p class="quote-main">
+            "Great achievers are driven, not so much by the pursuit of success, but by the fear of failure."
+          </p>
+          <cite>
+            --Larry Ellison, American business magnate
+          </cite>
+        </blockquote>
+        </div>
+        <h3 class="ending">
+          Oracle grew from a start-up with three programmers into the largest supplier of database software and the second-largest supplier of business applications in the world.
+        </h3>
+        <div class="quoteImage-container">
+          <img
+            class="image-quote"
+            src="https://thumbs.dreamstime.com/b/sep-redwood-city-ca-usa-oracle-logo-their-hq-silicon-valley-oracle-corporation-multinational-sep-redwood-city-ca-usa-158306895.jpg"
+            alt=""
+          />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
