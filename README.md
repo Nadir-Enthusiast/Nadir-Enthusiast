@@ -4,7 +4,8 @@
 - I’m looking to collaborate on various Web Development projects
 - 📫 How to reach me : email nadirkarimov76@gmail.com
 
-MY PORTFOLIO WILL BE AVAILABLE SOON
+Portfolio
+https://nadir-karimov.web.app/
 
 <!---
 Never gonna give you up!
