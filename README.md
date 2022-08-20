@@ -1,5 +1,4 @@
-# Hi, I'm Nadir
-## I work in Web Development
+# Hi, I'm Nadir, Software Engineer
 - I have experience with React,Vue, Node & Django
 - I’m looking to collaborate on various projects
 - 📫 How to reach me : nadirkarimov76@gmail.com
