@@ -1,4 +1,4 @@
-# Hi, I'm Nadir, IT specialist and entrepreneur
+# Hi, I'm Nadir,Software Developer
 - I have experience with React,Vue, Node & Django
 - I’m looking to collaborate on various projects
 - 📫 How to reach me : nadirkarimov76@gmail.com
